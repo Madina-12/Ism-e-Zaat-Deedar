@@ -11,8 +11,8 @@ export default function Home() {
     }, 66000);
    }
   return (
-    <div className=" flex flex-col items-center justify-center " onClick={handleClick}>
-      <div className="relative min-h-screen aspect-square z-20">
+    <div className=" flex items-center justify-center " onClick={handleClick}>
+      <div className="relative sm:min-h-screen w-screen sm:w-auto  aspect-[0.75] z-20">
         <Image
           src={"/ISM-E-ZAAT-MUBARIK.png"}
           alt="MERAY SOHNAY RAB KA ZAATI NAAM"
